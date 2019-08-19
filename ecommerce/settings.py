@@ -26,7 +26,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'),
                  os.environ.get('HOSTNAME'),
-                 'eece956474164767b054b9029ccb50d0.vfs.cloud9.us-east-1.amazonaws.com']
+                 'eece956474164767b054b9029ccb50d0.vfs.cloud9.us-east-1.amazonaws.com',
+                 'https://colms-ecommerce.herokuapp.com/']
 
 # Application definition
 
